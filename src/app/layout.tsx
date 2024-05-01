@@ -19,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={sans.className}>
-      <body className="min-h-[100svh] bg-pale-blue">{children}</body>
+      <body className="md:bg-pale-blue min-h-[100svh] bg-white">
+        {children}
+      </body>
     </html>
   )
 }
