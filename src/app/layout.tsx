@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={sans.className}>
-      <body className="min-h-[100svh]">{children}</body>
+      <body className="min-h-[100svh] bg-pale-blue">{children}</body>
     </html>
   )
 }
