@@ -3,7 +3,7 @@ import { promises as fs } from "fs"
 interface Result {
   category: "Reaction" | "Memory" | "Verbal" | "Visual"
   score: number
-  icon?: string
+  icon: string
 }
 
 export default async function useResults() {

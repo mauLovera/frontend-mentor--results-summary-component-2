@@ -27,11 +27,12 @@ const config: Config = {
       "results-3": "hsl(241, 81%, 54%)",
       "results-circle-1": "hsl(256, 71%, 46%)",
       "results-circle-2": "hsla(241, 71%, 46%, 0)",
+      button: "hsl(223, 30%, 27%)",
+      "button-hover-1": "hsl(252, 100%, 67%)",
+      "button-hover-2": "hsl(252, 100%, 63%)",
+      "button-hover-3": "hsl(241, 81%, 54%)",
     },
     extend: {
-      borderRadius: {
-        container: "36px",
-      },
       screens: {
         md: "769px",
       },
