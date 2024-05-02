@@ -12,7 +12,7 @@ export default async function ResultsSummary() {
   }
 
   return (
-    <article className="flex w-full flex-col overflow-hidden bg-white md:w-fit md:flex-row md:rounded-[32px]">
+    <article className="md:drop-shadow-results flex w-full flex-col overflow-hidden bg-white md:w-fit md:flex-row md:rounded-[32px]">
       <section className="flex flex-col items-center gap-6 rounded-b-[32px] bg-gradient-to-b from-results-1 from-0% via-results-2 via-0% to-results-3 to-100% px-14 pb-10 pt-6 text-center md:gap-[28px] md:rounded-[32px] md:pb-[55px] md:pt-[38px]">
         <h1 className="text-lg font-bold leading-[23px] text-light-blue md:mb-[12px] md:text-2xl md:leading-[31px]">
           Your Results

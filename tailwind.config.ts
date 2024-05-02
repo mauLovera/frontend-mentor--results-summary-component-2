@@ -32,6 +32,9 @@ const config: Config = {
       "button-hover-2": "hsl(252, 100%, 63%)",
       "button-hover-3": "hsl(241, 81%, 54%)",
     },
+    dropShadow: {
+      results: "0px 30px 60px hsla(224, 82%, 58%, 0.15)",
+    },
     extend: {
       screens: {
         md: "769px",
